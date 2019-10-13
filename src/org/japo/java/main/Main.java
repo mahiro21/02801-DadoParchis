@@ -30,6 +30,6 @@ public final class Main {
         // Generar dato
         int talla = RND.nextInt(60 - 20 + 1) + 20;
 
-        System.out.printf("Aforo actual del local ....: %d.%n", talla);
+        System.out.printf("Talla de zapato ...........: %d.%n", talla);
     }
 }
