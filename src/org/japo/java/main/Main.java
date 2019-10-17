@@ -27,11 +27,11 @@ public final class Main {
 
     public static void main(String[] args) {
         //Consteantes
-        final int TALLA_MIN = 20;
-        final int TALLA_MAX = 60;
+        final int TIRADA_MIN = 1;
+        final int TIRADA_MAX = 6;
         // Generar dato
-        int talla = RND.nextInt(TALLA_MAX - TALLA_MIN + 1) + TALLA_MIN;
+        int Tirada = RND.nextInt(TIRADA_MAX - TIRADA_MIN + 1) + TIRADA_MIN;
 
-        System.out.printf("Talla de zapato ...........: %d.%n", talla);
+        System.out.printf("Tirada Dado ...........: %d.%n", Tirada);
     }
 }
