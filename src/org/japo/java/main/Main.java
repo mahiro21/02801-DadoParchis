@@ -1,5 +1,5 @@
 /* 
- * 
+ * Copyright 2019 Mario Merlos Abella <mario.merlos.alum@iescamp.es>.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -30,8 +30,8 @@ public final class Main {
         final int TIRADA_MIN = 1;
         final int TIRADA_MAX = 6;
         // Generar dato
-        int Tirada = RND.nextInt(TIRADA_MAX - TIRADA_MIN + 1) + TIRADA_MIN;
+        int tirada = RND.nextInt(TIRADA_MAX - TIRADA_MIN + 1) + TIRADA_MIN;
 
-        System.out.printf("Tirada Dado ...........: %d.%n", Tirada);
+        System.out.printf("Tirada Dado ...........: %d.%n", tirada);
     }
 }
